@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191825;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#previous-button,
+#reset-button,
+#next-button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+#previous-button {
+  background-color: #865dff;
+  box-shadow: 0 0 5px #a555ec;
+  color: white;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#previous-button:hover {
+  background-color: #865dffaa;
+  transition: 250ms;
+}
+
+#reset-button {
+  background-color: #ff00e4;
+  box-shadow: 0 0 5px #ed50f1;
+  color: white;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#reset-button:hover {
+  background-color: #ed50f1aa;
+  transition: 250ms;
+}
+
+#next-button {
+  background-color: #00ead3;
+  box-shadow: 0 0 5px #88fff7;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#next-button:hover {
+  background-color: #00ead3cc;
+  transition: 250ms;
+}
