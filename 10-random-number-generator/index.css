@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191825;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.dice-labels {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 11px;
+}
+
+.buttons {
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+}
+
+#dice-6,
+#dice-8,
+#dice-20 {
+  background-color: #7286D3;
+  color: #B9F3FC;
+  min-width: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+}
+
+#roll-button,
+#reset-button,
+#values-button {
+  min-width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+#roll-button {
+  background-color: #80558C;
+  box-shadow: 0 0 5px #AF7AB3;
+  color: white;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#roll-button:hover {
+  background-color: #80558Caa;
+  transition: 250ms;
+}
+
+#reset-button {
+  background-color: #898AA6;
+  box-shadow: 0 0 5px #C9BBCF;
+  color: white;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#reset-button:hover {
+  background-color: #898AA6aa;
+  transition: 250ms;
+}
+
+#values-button {
+  background-color: #886F6F;
+  box-shadow: 0 0 5px #C1A3A3;
+  color: white;
+  cursor: grab;
+  transition: 250ms;
+}
+
+#values-button:hover {
+  background-color: #886F6Faa;
+  transition: 250ms;
+}
